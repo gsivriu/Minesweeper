@@ -1,0 +1,78 @@
+body {
+	background-color: #4aceba;
+}
+
+.grid-container {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 220px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+	left: -30px;
+}
+
+button {
+	width: 250px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	line-height: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+
+}
+
+#restartGame {
+	margin: auto;
+	text-align: center;
+	width: fit-content;
+	position: relative;
+	top: 120px;
+	left: -50px;
+	line-height: 15px;
+
+
+}
+
+.popupLose {
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border: 1px solid black;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.popupWin {
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border: 1px solid black;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#counter-display {
+	position: absolute;
+	top: 52%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+}
+
+#movesRemaining {
+	position: absolute;
+	top: 47%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+}
